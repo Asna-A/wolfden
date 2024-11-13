@@ -12,7 +12,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<WolfDenContext>(x =>
 {
-    x.UseSqlServer(@"Server=localhost,1430;Database=EmployeeManagement;User Id=sa;Password=abhi@123;TrustServerCertificate=true");
+    x.UseSqlServer(@"Server=localhost;Database=AttendenceTool;User Id=sa;Password=Pass@word1;TrustServerCertificate=true");
 
 });
 builder.Services.AddScoped<WolfDenContext>();
